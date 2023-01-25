@@ -9,6 +9,10 @@ packages = [{include = "cdv"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 chia-blockchain = {path = "../.."}
+pytest = "^7.2.1"
+packaging = "21.3"
+pytest-asyncio = "^0.20.3"
+pytimeparse = "^1.1.8"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
