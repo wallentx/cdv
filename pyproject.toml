@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "cdv"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 chia-blockchain = {path = "../.."}
 pytest = "^7.2.1"
 packaging = "21.3"
