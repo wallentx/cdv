@@ -8,6 +8,6 @@ chia:
     build:
       command: poetry install
     remove:
-      command: echo \"Not really a great way to remove whatever was installed in your venv...\"
+      command: echo "Not really a great way to remove whatever was installed in your venv..."
     artifacts:
       - cdv
