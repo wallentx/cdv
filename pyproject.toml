@@ -10,7 +10,7 @@ packages = [{include = "cdv"}]
 python = "^3.11"
 chia-blockchain = {path = "../.."}
 pytest = "^7.2.1"
-packaging = "21.3"
+packaging = "^23.0"
 pytest-asyncio = "^0.20.3"
 pytimeparse = "^1.1.8"
 
