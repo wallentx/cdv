@@ -7,4 +7,7 @@ chia:
       - wallentx <william.allentx@gmail.com>
     build:
       command: poetry install
-    artifacts: cdv
+    remove:
+      command: echo \"Not really a great way to remove whatever was installed in your venv...\"
+    artifacts:
+      - cdv
