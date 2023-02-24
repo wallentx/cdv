@@ -6,3 +6,6 @@ authors = ["wallentx <william.allentx@gmail.com>"]
 
 [chia.graft.build]
 command = "poetry install"
+
+[chia.graft.artifacts]
+cdv

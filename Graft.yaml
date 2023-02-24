@@ -7,3 +7,4 @@ chia:
       - wallentx <william.allentx@gmail.com>
     build:
       command: poetry install
+    artifacts: cdv
